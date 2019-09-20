@@ -17,7 +17,7 @@ export default class App extends Component {
     console.log(counter);
     return (
       <React.Fragment>
-        <h1>Hellow World</h1>
+        <h1>Hello World</h1>
         <h1>{counter}</h1>
         <button onClick={() => this.handleIncrease()}>Increase</button>
         <button onClick={() => this.handleDecrease()}>Decrease</button>
